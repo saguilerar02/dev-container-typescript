@@ -2,7 +2,7 @@
 
 # [Choice] Node.js version: 14, 12, 10
 FROM node:15.12.0-alpine3.10
-
+LABEL mantainer sergio.aguilera.rosado@gmail.com
 RUN apk update && \ 
     apk upgrade && \
     apk add bash && \
@@ -10,8 +10,10 @@ RUN apk update && \
     apk add bash-completion && \
     apk add git && \
     npm install -g npm@latest && \
-    npm install -g typescript  @types/typescript && \
-    tsc --init
+    npm install -g @vue/cli
+    
+#npm install -g typescript  @types/typescript && \
+#tsc --init
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
