@@ -13,11 +13,19 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"dbaeumer.vscode-eslint",
 		"wayou.vscode-todo-highlight",
 		"mikestead.dotenv",
 		//"ms-vscode.vscode-typescript-tslint-plugin",
-		"pkief.material-icon-theme"
+		//Tema de VSCode
+		"yiliyl.green-dark-theme",
+		//Tema de iconos
+		"pkief.material-icon-theme",
+		//Extensiones para VUE, web, etc
+		"dbaeumer.vscode-eslint",
+		"visualstudioexptteam.vscodeintellicode",
+		"ecmel.vscode-html-css",
+		"octref.vetur"
+
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
