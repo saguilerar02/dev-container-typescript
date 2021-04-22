@@ -24,7 +24,9 @@
 		"dbaeumer.vscode-eslint",
 		"visualstudioexptteam.vscodeintellicode",
 		"ecmel.vscode-html-css",
-		"octref.vetur"
+		"octref.vetur",
+		// Debugger
+		"msjsdiag.debugger-for-chrome"
 
 	],
 
