@@ -5,13 +5,14 @@ FROM node:15.12.0-alpine3.10
 
 RUN apk update && \ 
     apk upgrade && \
-    apk add bash && \
-    apk add bash-doc && \
-    apk add bash-completion && \
+   # apk add bash && \
+   # apk add bash-doc && \
+   # apk add bash-completion && \
     apk add git && \
     npm install -g npm@latest && \
     npm install -g typescript  @types/typescript && \
-    tsc --init
+    npm install -g @angular/cli
+    #tsc --init
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
